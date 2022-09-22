@@ -9,8 +9,8 @@ image: logo.jpg
 submission_guidelines: templates/submission_guidelines.html
 leaderboard_description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras egestas a libero nec sagittis.
 evaluation_script: evaluation_script.zip
-remote_evaluation: False #ini default false
-is_docker_based: False
+remote_evaluation: True #ini default false
+is_docker_based: True #ini default false
 start_date: 2022-09-22 00:00:00
 end_date: 2099-05-31 23:59:59
 published: True
@@ -61,6 +61,7 @@ challenge_phases:
         description: Sample
         type: text
         required: False
+    #Ini yang untuk saat ini optional (hingga baris 76)    
       - name: SingleOptionAttribute
         description: Sample
         type: radio
@@ -102,6 +103,7 @@ challenge_phases:
       - name: TextAttribute
         description: Sample
         type: text
+      #Ini yang untuk saat ini optional (hingga baris 117) 
       - name: SingleOptionAttribute
         description: Sample
         type: radio
