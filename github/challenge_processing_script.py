@@ -22,6 +22,7 @@ sys.dont_write_bytecode = True
 GITHUB_CONTEXT = json.loads(os.getenv("GITHUB_CONTEXT"))
 
 GITHUB_AUTH_TOKEN = os.getenv("GITHUB_AUTH_TOKEN")
+print("GITHUB_AUTH_TOKEN BRO", GITHUB_AUTH_TOKEN)
 if not GITHUB_AUTH_TOKEN:
     print(
         "Please add your github access token to the repository secrets with the name AUTH_TOKEN"
