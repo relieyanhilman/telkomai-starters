@@ -14,7 +14,6 @@ is_docker_based: False #ini default false
 start_date: 2022-09-22 00:00:00
 end_date: 2099-05-31 23:59:59
 published: True
-allowed_email_domains:
 blocked_email_domains: ["rizky.royal@gmail.com", "relysupper@gmail.com", "baru@gmail.com"]
 
 leaderboard:
